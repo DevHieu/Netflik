@@ -1,0 +1,50 @@
+.wrapper {
+  background: linear-gradient(
+    180deg,
+    rgba(20, 20, 20, 0.5) 0%,
+    rgba(20, 20, 20, 0) 100%
+  );
+  display: flex;
+  width: auto;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    .menu {
+      display: flex;
+      gap: 16px;
+      height: 20px;
+      .nav-button {
+        width: auto;
+        height: auto;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+  .right {
+    display: flex;
+    gap: 24px;
+    .icon {
+      &:hover {
+        width: auto;
+        height: auto;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
